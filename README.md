@@ -8,7 +8,7 @@ This repository provides automation to pre-build and distribute the node binarie
 
 ## How to Use
 
-To use the pre-built binaries with nexe just add `--remote https://github.com/urbdyn/nexe_builds/releases/download/0.3.0/`
+To use the pre-built binaries with nexe just add `--remote https://github.com/sogris/nexe_builds/releases/download/0.3.0/`
 
 Script example:
 
@@ -16,7 +16,7 @@ Script example:
 # Install Nexe
 npm install nexe
 # Save remote URL as variable
-NEXE_REMOTE="https://github.com/urbdyn/nexe_builds/releases/download/0.3.0/"
+NEXE_REMOTE="https://github.com/sogris/nexe_builds/releases/download/0.3.0/"
 # Do nexe build
 npx nexe ./myScript.js --remote "$NEXE_REMOTE"
 ```
